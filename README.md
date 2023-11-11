@@ -51,4 +51,5 @@ model = SequenceTagger(hidden_size=256,
 # Create the trainer and train the model
 trainer = ModelTrainer(model, corpus)
 trainer.train('pos_tagger', learning_rate=0.1, mini_batch_size=32, max_epochs=10)
-
+```
+Flair NLP Library ---> https://github.com/flairNLP/flair
