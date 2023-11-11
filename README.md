@@ -8,10 +8,7 @@ Part-of-Speech (POS) tagging is the process of assigning grammatical categories 
 The annotated Burmese text data used in this project is sourced from Dr. Ye Kyaw Thu's GitHub repository, similar to the data used for the previous OpenNMT-based model. The data consists of word sequences with their corresponding POS tags. Each word is tokenized and annotated using the slash (/) delimiter.
 
 # POS Tags
-The model predicts 15 POS tags, including Abbreviation, Adjective, Adverb, Conjunction, Foreign Word, Interjection, Noun, Number, Particle, Post-positional Marker, Pronoun, Punctuation, Symbol, Text Number, and Verb. The definitions for these tags remain consistent with the previous model.
-
-# Flair Model Architecture
-The Flair-based model utilizes the FlairEmbeddings for word embeddings, including the capability to use custom word2vec embeddings. Additionally, a stacked LSTM layer and a CRF (Conditional Random Field) layer are employed for sequence labeling tasks like POS tagging.
+The model predicts 15 POS tags, including Abbreviation, Adjective, Adverb, Conjunction, Foreign Word, Interjection, Noun, Number, Particle, Post-positional Marker, Pronoun, Punctuation, Symbol, Text Number, and Verb.
 
 # Custom Word Embeddings
 To improve the model's performance for the Burmese language, a CustomEmbedding layer is implemented, allowing the use of word2vec embeddings.
