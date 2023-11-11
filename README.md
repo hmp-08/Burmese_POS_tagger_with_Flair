@@ -53,4 +53,5 @@ trainer = ModelTrainer(model, corpus)
 trainer.train('pos_tagger', learning_rate=0.1, mini_batch_size=32, max_epochs=10)
 ```
 Flair NLP Library ---> https://github.com/flairNLP/flair
+
 Dataset ---> https://github.com/ye-kyaw-thu/myPOS/blob/master/corpus-ver-3.0/corpus/mypos-ver.3.0.txt
