@@ -5,7 +5,7 @@ Burmese Part-of-Speech (POS) model Based on Flair NLP Library
 Part-of-Speech (POS) tagging is the process of assigning grammatical categories to words in a sentence. It is crucial for various natural language processing (NLP) tasks such as parsing, information retrieval, named entity recognition, sentiment analysis, and machine translation. This project focuses on building a POS tagging model for the Burmese language using the Flair NLP library.
 
 # Data
-The annotated Burmese text data used in this project is sourced from Dr. Ye Kyaw Thu's GitHub repository, similar to the data used for the previous OpenNMT-based model. The data consists of word sequences with their corresponding POS tags. Each word is tokenized and annotated using the slash (/) delimiter.
+The annotated Burmese text data used in this project is sourced from Dr. Ye Kyaw Thu's GitHub repository. The data consists of word sequences with their corresponding POS tags. Each word is tokenized and annotated using the slash (/) delimiter.
 
 # POS Tags
 The model predicts 15 POS tags, including Abbreviation, Adjective, Adverb, Conjunction, Foreign Word, Interjection, Noun, Number, Particle, Post-positional Marker, Pronoun, Punctuation, Symbol, Text Number, and Verb.
@@ -17,7 +17,7 @@ My pre-trained word2vec embedding model -gensim can be downloaded here ->
 [word2vec.model](https://drive.google.com/file/d/1Sa9TvWG0DMoGYdBe1ieUyw0tz_69C4PT/view?usp=sharing)
 
 # How to Train
-Training the Flair POS tagging model involves running the `pos_flair.ipynb` Jupyter Notebook or Python script that includes the necessary configurations, data loading, model training, and evaluation steps. Ensure that you have Flair and other required dependencies installed.
+Training the Flair POS tagging model involves running the `flair_pos_word2vec_embedding.ipynb` Jupyter Notebook or Python script that includes the necessary configurations, data loading, model training, and evaluation steps. Ensure that you have Flair and other required dependencies installed.
 ```python
 # Sample training script
 
