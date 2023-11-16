@@ -11,7 +11,10 @@ The annotated Burmese text data used in this project is sourced from Dr. Ye Kyaw
 The model predicts 15 POS tags, including Abbreviation, Adjective, Adverb, Conjunction, Foreign Word, Interjection, Noun, Number, Particle, Post-positional Marker, Pronoun, Punctuation, Symbol, Text Number, and Verb.
 
 # Custom Word Embeddings
-To improve the model's performance for the Burmese language, a CustomEmbedding layer is implemented, allowing the use of word2vec embeddings.
+To improve the model's performance for the Burmese language, a CustomEmbedding layer is implemented, allowing the use of pre-trained word2vec embeddings.
+
+My pre-trained word2vec embedding model -gensim can be downloaded here -> 
+[word2vec.model](https://drive.google.com/file/d/1Sa9TvWG0DMoGYdBe1ieUyw0tz_69C4PT/view?usp=sharing)
 
 # How to Train
 Training the Flair POS tagging model involves running the `pos_flair.ipynb` Jupyter Notebook or Python script that includes the necessary configurations, data loading, model training, and evaluation steps. Ensure that you have Flair and other required dependencies installed.
@@ -51,4 +54,4 @@ trainer.train('pos_tagger', learning_rate=0.1, mini_batch_size=32, max_epochs=10
 ```
 Flair NLP Library ---> https://github.com/flairNLP/flair
 
-Dataset ---> https://github.com/ye-kyaw-thu/myPOS/blob/master/corpus-ver-3.0/corpus/mypos-ver.3.0.txt
+Dataset ---> [mypos-ver.3.0.txt](https://github.com/ye-kyaw-thu/myPOS/blob/master/corpus-ver-3.0/corpus/mypos-ver.3.0.txt)
