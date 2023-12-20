@@ -16,6 +16,8 @@ To improve the model's performance for the Burmese language, a CustomEmbedding l
 My pre-trained word2vec embedding model -gensim can be downloaded here -> 
 [word2vec.model](https://drive.google.com/file/d/1Sa9TvWG0DMoGYdBe1ieUyw0tz_69C4PT/view?usp=sharing)
 
+![](https://github.com/hmp-08/Burmese_POS_tagger_with_Flair/blob/main/Screenshot%20from%202023-12-20%2013-48-57.png)
+
 ## How to Train
 Training the Flair POS tagging model involves running the `flair_pos_word2vec_embedding.ipynb` Jupyter Notebook or Python script that includes the necessary configurations, data loading, model training, and evaluation steps. Ensure that you have Flair and other required dependencies installed.
 ```python
