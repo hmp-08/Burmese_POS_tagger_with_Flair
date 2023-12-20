@@ -59,6 +59,8 @@ My pre-trained Flair embedding models (char level) forward and backward can be d
 [forward](https://drive.google.com/file/d/18fLAETu7aisMcVQR5VWmh3ZbOFTyLbAg/view?usp=sharing)
 [backward](https://drive.google.com/file/d/1vKbbMyuUcijKYxuWQ4bi6rTFnrJL7roO/view?usp=sharing)
 
+![](https://github.com/hmp-08/Burmese_POS_tagger_with_Flair/blob/main/Screenshot%20from%202023-12-20%2013-52-01.png)
+
 ## How to Train
 Training the Flair POS tagging model involves running the `flair_pos_flairembeddings.ipynb` Jupyter Notebook or Python script that includes the necessary configurations, data loading, model training, and evaluation steps. 
 
